@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Bottom Navigation</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .content {
+            height: 1500px; /* To enable scrolling */
+            padding: 20px;
+        }
+        .bottom-nav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f1f1f1   ;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            padding: 10px 0;
+            border-top: 1px solid #ddd;
+        }
+        .bottom-nav a {
+            text-decoration: none;
+            color: #555;
+            text-align: center;
+            font-size: 14px;
+        }
+        .bottom-nav a:hover {
+            color: #007bff;
+        }
+        .bottom-nav .icon {
+            font-size: 20px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Page Content -->
+<div class="content">
+    <h1>Scroll Down</h1>
+    <p>This is some scrollable content. The bottom navigation bar will remain fixed while you scroll.</p>
+</div>
+
+
+
+
+
+
+<!-- Page Content -->
+<div class="content">
+    <h1>Scroll Down</h1>
+    <p>This is some scrollable content. The bottom navigation bar will remain fixed while you scroll.</p>
+</div>
+
+
+
+
+
+<!-- Page Content -->
+<div class="content">
+    <h1>Scroll Down</h1>
+    <p>This is some scrollable content. The bottom navigation bar will remain fixed while you scroll.</p>
+</div>
+
+
+
+
+
+
+
+<!-- Page Content -->
+<div class="content">
+    <h1>Scroll Down</h1>
+    <p>This is some scrollable content. The bottom navigation bar will remain fixed while you scroll.</p>
+</div>
+
+<!-- Bottom Navigation -->
+<div class="bottom-nav">
+    <a href="#home">
+        <span class="icon">🏠</span>
+        <span>Home</span>
+    </a>
+    <a href="#wallet">
+        <span class="icon">💳</span>
+        <span>Wallet</span>
+    </a>
+    <a href="#transactions">
+        <span class="icon">🔄</span>
+        <span>Transactions</span>
+    </a>
+    <a href="#profile">
+        <span class="icon">👤</span>
+        <span>Profile</span>
+    </a>
+    <a href="#more">
+        <span class="icon">☰</span>
+        <span>More</span>
+    </a>
+</div>
+
+</body>
+</html>
